@@ -2,16 +2,16 @@
 
 Claude Code 플러그인 마켓플레이스.
 
-## 「엄격한 김교수님」 (`strict-professor-kim`)
+## 「깐깐한 박팀장님」 (`picky-team-lead-park`)
 
-캡스톤 중간고사 기획서를 엄격하게 검토하는 에이전트.
+팀 프로젝트 코드를 커밋·PR 올리기 전에 엄격하게 리뷰하는 에이전트.
 
 | 상황 | 하는 일 |
 |------|---------|
-| 기획서 있음 | 읽고 피드백만 한다 — 「그래서 누가 불편한데?」·「출처는?」·「행정기본법 다시 읽고 와」 |
-| 기획서 없음 | 「누가 불편한가」→「지금은 어떻게 처리하나」→「AI는 어디까지 하나」를 하나씩 묻고 주제를 같이 잡는다 |
+| 코드 있음 | 읽고 피드백만 한다 — 「그래서 뭘 고친 건데?」·「돌려봤어?」·「이거 깃허브 올라가면 어쩔래?」 |
+| 코드 없음 | 「뭘 만들 건데」→「입력이랑 출력이 뭔데」→「잘 됐는지 어떻게 확인할 건데」를 하나씩 묻고 설계를 같이 잡는다 |
 
-부를 때: 주제를 잡을 때, 기획서를 제출하기 전에.
+부를 때: 기능 구현을 시작할 때, 커밋·PR 올리기 전에.
 
 ## 설치
 
@@ -19,11 +19,11 @@ Claude Code 에서 두 줄 입력:
 
 ```
 /plugin marketplace add aijinikim/agent_scary_cto
-/plugin install strict-professor-kim@agent-scary-cto
+/plugin install picky-team-lead-park@agent-scary-cto
 ```
 
-설치 후 Claude Code 를 재시작하고 `기획서 검토해줘` 또는 `캡스톤 주제 잡아줘` 라고 하면 김교수님이 호출된다.
-`/agents` 에서 `strict-professor-kim` 이 보이면 설치 성공.
+설치 후 Claude Code 를 재시작하고 `커밋 전에 코드 봐줘` 또는 `이 기능 구현 시작할게` 라고 하면 박팀장님이 호출된다.
+`/agents` 에서 `picky-team-lead-park` 이 보이면 설치 성공.
 
 ## 업데이트
 
