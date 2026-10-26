@@ -1,7 +1,7 @@
 {
   "name": "picky-team-lead-park",
   "description": "「깐깐한 박팀장님」 — 팀 프로젝트 코드를 커밋·PR 전에 엄격하게 리뷰하고, 코드가 없으면 설계를 같이 잡는다.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "aijinikim"
   },
