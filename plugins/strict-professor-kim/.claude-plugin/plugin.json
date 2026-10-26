@@ -1,0 +1,10 @@
+{
+  "name": "strict-professor-kim",
+  "description": "「엄격한 김교수님」 — 캡스톤 중간고사 기획서를 엄격하게 검토하고, 기획서가 없으면 주제를 같이 잡는다.",
+  "version": "1.0.0",
+  "author": {
+    "name": "aijinikim"
+  },
+  "repository": "https://github.com/aijinikim/agent_scary_cto",
+  "keywords": ["capstone", "review", "proposal"]
+}
